@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Client - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\mzy\AppData\Local\Temp\RSP8956.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /FR"Debug/" /Fp"Debug/Client.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\C++\Ô¶¿ØÑ§Ï°\Client\ClientDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\mzy\AppData\Local\Temp\RSP8956.tmp" 
+Creating temporary file "C:\Users\mzy\AppData\Local\Temp\RSP8957.tmp" with contents
+[
+/nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:yes /pdb:"Debug/Client.pdb" /debug /machine:I386 /out:"Debug/Client.exe" /pdbtype:sept 
+".\Debug\Client.obj"
+".\Debug\ClientDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Client.res"
+".\Debug\ItemData.obj"
+".\Debug\MySocket.obj"
+]
+Creating command line "link.exe @C:\Users\mzy\AppData\Local\Temp\RSP8957.tmp"
+<h3>Output Window</h3>
+Compiling...
+ClientDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Client.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Client.sbr" ".\Debug\ClientDlg.sbr" ".\Debug\ItemData.sbr" ".\Debug\MySocket.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Client.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
